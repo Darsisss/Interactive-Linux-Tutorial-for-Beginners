@@ -44,12 +44,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.sidePanel = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.button11 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.sidePanel = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -166,7 +165,7 @@
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBox1.Size = new System.Drawing.Size(923, 800);
             this.textBox1.TabIndex = 3;
-            this.textBox1.Text = "ы";
+            this.textBox1.Text = ";";
             // 
             // label1
             // 
@@ -214,6 +213,14 @@
             this.panel2.Size = new System.Drawing.Size(226, 850);
             this.panel2.TabIndex = 2;
             // 
+            // sidePanel
+            // 
+            this.sidePanel.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.sidePanel.Location = new System.Drawing.Point(12, 96);
+            this.sidePanel.Name = "sidePanel";
+            this.sidePanel.Size = new System.Drawing.Size(10, 53);
+            this.sidePanel.TabIndex = 6;
+            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -257,30 +264,12 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.label4.Location = new System.Drawing.Point(1028, 758);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(0, 13);
-            this.label4.TabIndex = 5;
-            // 
-            // sidePanel
-            // 
-            this.sidePanel.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.sidePanel.Location = new System.Drawing.Point(12, 96);
-            this.sidePanel.Name = "sidePanel";
-            this.sidePanel.Size = new System.Drawing.Size(10, 53);
-            this.sidePanel.TabIndex = 6;
-            // 
-            // Form1
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSeaGreen;
             this.ClientSize = new System.Drawing.Size(1624, 821);
-            this.Controls.Add(this.label4);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.panel2);
@@ -288,7 +277,7 @@
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1640, 860);
             this.MinimumSize = new System.Drawing.Size(1200, 860);
-            this.Name = "Form1";
+            this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Linux для новичков";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -320,7 +309,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel sidePanel;
     }
 }

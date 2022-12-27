@@ -384,7 +384,7 @@ namespace LinuxTutorForBeginneger
             textBox1.Text = "Данное приложение разработано с целью показать пользователю основные особенности ОС на базе ядра Linux. " +
                 "Не является полноценным учебником. \nНад приложением работал студент группы ИС-33 Конышев И.С. ";
             pictureBox1.Image = Image.FromFile("Assets/i.jpeg");
-            label4.Text = "Windows - помойка";
+            
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
